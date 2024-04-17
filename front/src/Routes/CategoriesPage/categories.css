@@ -1,0 +1,17 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category-item {
+    margin: 50px;
+    font-size: 30px;
+}
+
+.category-item button {
+    width: 500px;
+    height: 500px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.main {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/main-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 200, 0, 0.2);
+}
+
+.name {
+    color: white;
+    opacity: 1;
+    font-size: 50px;
+    margin: 0px;
+    position: relative;
+    top: -100px;
+}

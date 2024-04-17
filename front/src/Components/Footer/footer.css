@@ -1,0 +1,23 @@
+.footer {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.contact-text {
+    top: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.links {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+.links a img {
+    width: 100px;
+    height: 100px;
+}
